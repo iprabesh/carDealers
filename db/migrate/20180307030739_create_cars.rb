@@ -2,8 +2,8 @@ class CreateCars < ActiveRecord::Migration[5.0]
   def change
     create_table :cars do |t|
       t.string :brand
-      t.string :type
-      t.decimal :price
+      t.string :model
+      t.integer :price
       t.integer :rating
       t.text :description
 

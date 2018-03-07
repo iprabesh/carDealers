@@ -2,14 +2,14 @@
 
 one:
   brand: MyString
-  type: 
-  price: 9.99
+  model: MyString
+  price: 1
   rating: 1
   description: MyText
 
 two:
   brand: MyString
-  type: 
-  price: 9.99
+  model: MyString
+  price: 1
   rating: 1
   description: MyText

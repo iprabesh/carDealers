@@ -1,0 +1,13 @@
+
+<div class = "container" %>
+<% @car.each do |car| %>
+	<div class="card" style="width: 20rem;">
+	  <%= image_tag("show_page/ferrari1.png", class: "card-img-top")%>
+	  <div class="card-block">
+	    <strong class="card-title">  <%= car.model %></strong>
+	    <p class="card-text"> <%= truncate(car.description, length: 25, separator: ' ') %></p>
+	    <a href="#" class="btn btn-primary">Go somewhere</a>
+	  </div>
+	</div>
+<% end %>
+</div>
